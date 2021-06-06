@@ -1,0 +1,17 @@
+supervised learning - learning with labeled examples
+- regressing
+- binary classification
+- multi-label classification
+
+un-supervised learning - grouping, word clustering
+
+hypothesis : H(x) = Wx + b  
+
+cost : H(x) - y , 가설과 실제 데이터값의 차이를 나타냄. 보통 cost에 제곱을 함으로써 cost가 클수록 더 큰 가중치를 줌. 
+일반적으로 전체 데이터에 대한 cost의 평균값을 구하여 사용.
+
+@ Goal : cost의 minimize가 learning의 최종 목표임
+
+linear regression의 cost function을 최소화 하는 방법 : Gradient discent algorithm
+
+Gradient discent algorithm - W : W - a(d/dW)cost(W) , a = learning rate , Convex function(경사를 따라 내려갔을 때 한점으로 모이게 되는 함수형태)에 사용됨
